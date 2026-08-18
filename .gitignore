@@ -1,0 +1,6 @@
+.vercel
+.env*
+*-source.png
+*-source.jpg
+*-source.jpeg
+*.pdf

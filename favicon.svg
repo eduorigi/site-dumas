@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Dumas Engenharia e Projetos">
+  <rect width="64" height="64" rx="10" fill="#07111f"/>
+  <path d="M17 15h18c8 0 13 5 13 17s-5 17-13 17H17V15Zm9 8v18h8c3 0 5-3 5-9s-2-9-5-9h-8Z" fill="#fff"/>
+  <path d="M15 52 48 12" stroke="#54a9ff" stroke-width="4"/>
+</svg>
