@@ -160,6 +160,11 @@
     @media(max-width:640px){.service-details-modal{padding:12px}.service-details-dialog{max-height:calc(100dvh - 24px);padding:46px 22px 28px}.service-details-close{top:10px;right:10px}}
     @media(prefers-reduced-motion:reduce){.service-details-close{transition:none}}
   </style>
+  <style>
+    .service-card .service-details-trigger{display:flex;align-items:center;justify-content:space-between;gap:12px;width:fit-content;min-height:42px;margin-top:20px;padding:10px 14px;border:1px solid rgba(127,193,255,.42);border-radius:10px;background:rgba(84,169,255,.08);color:#d8ebff;letter-spacing:.01em;transition:transform .2s ease,border-color .2s ease,background .2s ease}.service-card .service-details-trigger:after{display:grid;place-items:center;width:20px;height:20px;border:1px solid rgba(127,193,255,.55);border-radius:50%;font-size:1rem}.service-card .service-details-trigger:hover{transform:translateY(-2px);border-color:var(--blue-bright);background:rgba(84,169,255,.18);color:#fff}.service-card .whatsapp-link{display:flex;align-items:center;gap:10px;width:fit-content;min-height:42px;margin-top:14px;padding:10px 15px;border:1px solid rgba(127,193,255,.65);border-radius:10px;background:var(--blue);color:#fff;box-shadow:0 10px 24px rgba(25,118,210,.2);transition:transform .2s ease,background .2s ease,box-shadow .2s ease}.service-card .whatsapp-link:after{margin-left:2px;color:#fff}.service-card .whatsapp-link:hover{transform:translateY(-2px);background:#3f9cf0;box-shadow:0 14px 28px rgba(25,118,210,.3)}
+    @media(max-width:640px){.service-card .service-details-trigger,.service-card .whatsapp-link{width:100%;justify-content:center}}
+    @media(prefers-reduced-motion:reduce){.service-card .service-details-trigger,.service-card .whatsapp-link{transition:none}}
+  </style>
 </head>
 <body>
   <a class="skip-link" href="#conteudo">Pular para o conte&uacute;do</a>
